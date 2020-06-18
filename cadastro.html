@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Health Track</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="cadastro.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="fundo">
+	<div class="card" id="telacadastro">
+		<div class="card-body">
+			<img src="imagens/logo.JPG" alt="logo" id="logo"><br>
+            <form>
+				<div class="form-group">
+					<label>Nome completo</label>
+					<input type="text" placeholder="Digite seu nome completo" class="form-control"  id="nome" maxlength="30" required><br>
+                <div class="form-group">
+                  <label>E-mail</label>
+				  <input type="email" placeholder="Insira seu e-mail" class="form-control" id="email" aria-describedby="emailHelp" maxlength="50" required><br>
+				<div class="form-group">
+					<label>Idade</label>
+					<input type="text" placeholder="Digite sua idade" class="form-control" id="idade" maxlength="3" max="100" required><br>
+                <div class="form-group">
+                  <label>Senha</label>
+				  <input type="password" placeholder="Insira sua senha" class="form-control" id="senha" minlength="8" maxlength="20">
+					<small id="texto-senha" class="text-muted">
+					Deve ter de 8 a 20 caracteres.
+					</small>
+				</div>
+				<div class="form-group">
+					<label for="genero">Gênero</label><br>
+					<select id="genero" required>
+						<option value="M">Masculino</option>
+						<option value="F">Feminino</option>
+					</select><br><br>
+				</div>
+                <a href="home.html"><button type="submit" class="btn btn-primary btn-lg btn-block">Cadastrar</button></a>
+			</form>
+		</div>
+	</div>		
+</body>
+</html>

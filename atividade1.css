@@ -1,0 +1,39 @@
+#Tela{
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(158, 158, 158);
+}
+
+
+#corpo{
+    text-align: center;
+}
+
+#imagem2{
+    width: 299px;
+    height: 140px;
+    position: relative;
+    left: -21px;
+}
+
+#imagem{
+    width: 299px;
+    height: 140px;
+}
+
+#pagina{
+    position: absolute;
+    left: 5%;
+    top: 90%;
+}
+
+#botao2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

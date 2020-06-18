@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <title>Health Track</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="cadastro_IMC.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="fundo">
+    <div class="card" id="telacadastro">
+		<div class="card-body">
+			<img src="imagens/logo.JPG" alt="logo" id="logo"><br>
+            <form>
+				<div class="form-group">
+					<label>Peso</label>
+                    <input type="text" placeholder="Informe aqui seu peso" class="form-control"  id="peso" maxlength="3" max="200" required>
+				</div>
+                <div class="form-group">
+                  <label>E-mail</label>
+                  <input type="text" placeholder="Informe aqui sua altura" class="form-control" id="altura" maxlength="3" max="2.00" required>
+                </div>
+				<div class="form-group">
+					<label>Cálculo IMC</label>
+                    <input type="text" placeholder="Seu IMC = " class="form-control" id="IMC" disabled>
+				</div>
+                <div>
+                    <label>Observação</label>
+                    <textarea id="texto-area" disabled >Obs: </textarea><br><br>
+                </div>
+                <div>
+                <a href="home.html"><button type="submit" class="btn btn-primary btn-lg btn-block">Avançar</button></a>
+                </div>
+        </div>
+</body>
+</html>

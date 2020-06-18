@@ -1,0 +1,23 @@
+#TelaPerfil{
+    width: 350px;
+    height: 690px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(158, 158, 158);
+}
+
+#icone{
+    width: 70px;
+    height: 70px;
+}
+
+.form-group{
+    text-align: center;
+}
+
+.file{
+    position: absolute;
+    left: 7px;
+}

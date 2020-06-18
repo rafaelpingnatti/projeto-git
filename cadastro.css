@@ -1,0 +1,22 @@
+#telacadastro{
+    width: 300px;
+    height: 680px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(158, 158, 158);
+}
+
+#fundo{
+    background-image: url(https://conteudo.imguol.com.br/c/entretenimento/01/2018/06/12/aula-academia-afundo-treino-exercicio-abre-1528838780171_v2_1920x1251.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#genero{
+    width: 260px;
+    height: 40px;
+}
